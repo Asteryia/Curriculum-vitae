@@ -19,7 +19,7 @@ header{
 }
 
 nav{
-  display: inline-block;
+  display: inline;
   block-size: 4rem;
   background-color: #2c1d27;
   font-family: Lato italic;
@@ -36,11 +36,13 @@ nav{
 }
 
 .center{
-  float: center;
+  position: absolute;
+  top: 280px;
+  bottom: 15px;
+  left: 450px;
   color: white;
   text-decoration: none;
-  text-align: center;
-  margin: 20px;
+  
 }
 
 .right{
